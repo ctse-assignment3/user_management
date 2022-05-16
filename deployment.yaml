@@ -16,6 +16,6 @@ spec:
         spec:
             containers:
             - name: docker-k8s
-              image: it19110530/assignment3:a673321787f6f24152d1e4254f4219ba81377642
+              image: it19110530/assignment3:3d03b2e6d2a6abb325cd748c432f7d1a604b5b99
               ports:
               - containerPort: 8030
