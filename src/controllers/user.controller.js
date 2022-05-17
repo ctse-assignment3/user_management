@@ -38,8 +38,6 @@ const register = async (req, res) => {
                 });
         }
     }
-
-
 }
 
 
@@ -89,7 +87,7 @@ const getProfile = async (req, res) => {
 }
 
 
-//update tourists profile
+//update user profile
 const updateProfile = async (req, res) => {
     var email = req.params.email
 
